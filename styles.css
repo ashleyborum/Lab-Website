@@ -74,4 +74,19 @@ body {
     padding-right: 1rem;
 }
 
+/*footer*/
+.footer-text {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.footer-text2 {
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+
+
+
 
