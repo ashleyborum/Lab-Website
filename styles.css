@@ -87,6 +87,15 @@ body {
     text-align: right;
 }
 
+.highlighted-pub {
+    color: #0A64DB;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+
 
 
 
