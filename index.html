@@ -24,21 +24,19 @@
     <title>Sun Laboratories</title>
 </head>
 <body>
+    
     <!--Navbar-->
-    <nav class="navbar shadow p-3 bg-white rounded">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
         <div class="container">
             <div class="navbar-header">
-
-                <a class="navbar-logo" href="">
-                    <div id="logoText" class="navbar-text">
-                        <h3 href="https://www.cs.odu.edu/~jsun/#/" class="navbar-logo h6 text-decoration-none">SUN LABORATORIES</h3>
-                        <p href="https://www.cs.odu.edu/~jsun/#/" class="navbar-subtext">Machine Learning & Computational Systems Medicine</p>
-                    </div>
-                </a>
+                <a class="navbar-logo" href="https://www.cs.odu.edu/~jsun/#/">SUN LABORATORIES</a>
+                <a class="navbar-subtext" href="https://www.cs.odu.edu/~jsun/#/">Machine Learning & Computational Systems Medicine</a>
             </div>
-
-            <div>
-                <ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-4 my-lg-4 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                     <li class="nav-item active"><a href="#" class="nav-link active">Research</a></li>
                     <li class="nav-item active"><a href="#" class="nav-link">People</a></li>
                     <li class="nav-item active"><a href="#" class="nav-link">Publications</a></li>
@@ -46,16 +44,18 @@
                     <li class="nav-item active"><a href="#" class="nav-link">Contact</a></li>
                 </ul>
             </div>
-
         </div>
     </nav>
+      
+    <!--Container-->
+    <div class="container bg-white">
 
     <!--Carousel-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselHero" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -68,18 +68,18 @@
             <img src="images/molecule.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
+    
       
-    <!--Site Main-->
-    <div class="container bg-white pt-5">
+    <!--Site Main--> 
     <div class="row">
         <div class="col-lg-12" style>
             <div class="row row-centered">
@@ -112,7 +112,7 @@
             </div>
         </div>
     </div>
-    </div>
+    
 
 
     
