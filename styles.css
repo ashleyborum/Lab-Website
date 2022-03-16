@@ -5,18 +5,18 @@ body {
 
 /*navbar*/
 .navbar-logo {
-    text-decoration: none;
     color: #044bd9;
-}
-
-.navbar-logo h3 {
+    text-decoration: none;
     font-weight: bold;
+    font-size: 24px;
 }
 
 .navbar-subtext {
-    /*color: #7dcbf5;*/
+    color: #7dcbf5;
+    text-decoration: none;
     font-weight: 300;
     display: block;
+    font-size: 18px;
 }
 
 .lead text-secondary {
@@ -34,8 +34,15 @@ body {
 }
 
 /*Carousel*/
+.carousel {
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    
+    margin-top: 2rem;
+}
+
 .carousel-inner {
-    height:450px;  
+    height:450px; 
 }
 
 .h2 {
@@ -92,7 +99,6 @@ body {
     font-weight: bold;
     font-size: 16px;
 }
-
 
 
 
