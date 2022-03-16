@@ -5,6 +5,7 @@ body {
 
 /*navbar*/
 .navbar-logo {
+    margin-bottom: 0px;
     color: #044bd9;
     text-decoration: none;
     font-weight: bold;
@@ -17,6 +18,12 @@ body {
     font-weight: 300;
     display: block;
     font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    .navbar-subtext {
+        display: none;
+    }
 }
 
 .lead text-secondary {
