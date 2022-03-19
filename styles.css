@@ -88,6 +88,39 @@ body {
     padding-right: 1rem;
 }
 
+/*Highlighted Publications*/
+#intro-publications .publication {
+    width: 396px;
+    height: 217px;
+    margin: 10px 10px 0 0;
+    padding: 35px 10px 0px 10px;
+
+    position: relative;
+    background-color: white;
+    border-radius: 1px;
+    list-style-type: none;
+    box-sizing: content-box;
+    box-shadow: 1px 2px 2px #00000029;
+    opacity: 1;
+}
+
+.title {
+    color: #0A64DB;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.authors {
+    color: #A6ADB4;
+}
+.conference {
+    color: #A6ADB4;
+    font-weight: bold;
+}
+
+
+
 /*footer*/
 .footer-text {
     text-decoration: none;
@@ -99,12 +132,6 @@ body {
     text-decoration: none;
     color: white;
     text-align: right;
-}
-
-.highlighted-pub {
-    color: #0A64DB;
-    font-weight: bold;
-    font-size: 16px;
 }
 
 
