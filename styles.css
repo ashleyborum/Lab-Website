@@ -43,13 +43,13 @@ body {
 /*Carousel*/
 .carousel {
     border-radius: 5px 5px 5px 5px;
-    overflow: hidden;
-    
-    margin-top: 2rem;
 }
 
-.carousel-inner {
-    height:450px; 
+#carouselHero .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
 }
 
 .h2 {
@@ -58,6 +58,7 @@ body {
     margin-top: 2rem;
     padding-left: 1rem;
 }
+
 /*Subtitles*/
 .h5 {
     font-weight: 700;
@@ -133,9 +134,5 @@ body {
     color: white;
     text-align: right;
 }
-
-
-
-
 
 
