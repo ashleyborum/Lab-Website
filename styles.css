@@ -59,7 +59,7 @@ body {
     padding-left: 1rem;
 }
 
-/*Subtitles*/
+/*Research Summary*/
 .h5 {
     font-weight: 700;
     font-size: 18px;
@@ -74,6 +74,7 @@ body {
     padding-right: 1rem;
 }
 
+/*News & Updates*/
 .small-title {
     font-weight: bold;
     color: #0A64DB;
@@ -87,14 +88,22 @@ body {
     color: #a6adb4;
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-bottom: 0;
+}
+
+i {
+    font-size: 13px;
+    color: #A6ADB4;
+    padding-left: 1rem;
 }
 
 /*Highlighted Publications*/
 #intro-publications .publication {
-    width: 396px;
-    height: 217px;
+    width: 315px;
+    height: 200px;
     margin: 10px 10px 0 0;
-    padding: 35px 10px 0px 10px;
+    padding: 30px;
+
 
     position: relative;
     background-color: white;
@@ -108,31 +117,45 @@ body {
 .title {
     color: #0A64DB;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
+
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+@media (max-width: 767px) {
+    .title {
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    
 }
 
 .authors {
     color: #A6ADB4;
 }
+
 .conference {
     color: #A6ADB4;
-    font-weight: bold;
 }
 
-
+.img-thumb {
+    margin: 0px;
+    position: relative; 
+    box-sizing: border-box;   
+}
 
 /*footer*/
 .footer-text {
     text-decoration: none;
     color: white;
-    text-align: left;
 }
-
-.footer-text2 {
-    text-decoration: none;
-    color: white;
-    text-align: right;
-}
-
 
