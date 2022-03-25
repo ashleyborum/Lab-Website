@@ -167,22 +167,21 @@ p {
 }
 
 /* Publications Page */
-.publications-page-title {
+.publications-page-title{
     margin-top: 145px;
+    margin-bottom: 10px;
 }
 
 .pub-year {
     font-size: 20px;
     color: black;
     font-weight: 500;
-    margin-top: 40px;
-    margin-bottom: 0px;;
 }
 
 .pub-title {
     color: #0A64DB;
     font-size: 16px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     text-decoration: none;
 }
 
@@ -190,5 +189,17 @@ p {
     color: #A6ADB4;
     font-size: 14px;
     font-weight: 100;
-    line-height: 1.6;
+}
+
+/* People Page */
+.people-page-title {
+    margin-top: 145px;
+}
+
+.staff {
+    height: 243px;
+    width: 243px;
+    border-radius: 5px;
+    margin: 5px;
+    position: relative;
 }
