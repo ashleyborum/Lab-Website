@@ -130,10 +130,10 @@ img {
     margin-right: 8px;
 }
 
-p {
+/*p {
     color: #A6ADB4;
     margin-top: 4px;
-}
+}*/
 
 @media (max-width: 767px) {
     .publication {
