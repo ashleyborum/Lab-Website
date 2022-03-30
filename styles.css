@@ -130,10 +130,11 @@ img {
     margin-right: 8px;
 }
 
-/*p {
+.authors {
     color: #A6ADB4;
     margin-top: 4px;
-}*/
+}
+
 
 @media (max-width: 767px) {
     .publication {
@@ -198,22 +199,84 @@ img {
 
 /* People Page */
 .people-page-title {
-    margin-top: 145px;
+    padding-top: 145px;
 }
 
-.staff {
-    display: block;
-    text-align: center;
-    float: left;
-}
-
-.staff-img {
-    height: 243px;
-    width: 243px;
+.researcher {
+    height:243px;
+    /*width: 243px;*/
+    width: 100%;
     border-radius: 16px;
     border: solid;
 }
 
-.staff-name {
-    color: black;
+.staff-image {
+    position: relative;
+    width: 100%;
+    overflow: hidden
+}
+
+.staff-image .overlay {
+    position: absolute;
+    bottom: 0;
+    padding-left: 25px;
+    padding-top: 15px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    z-index: 5
+}
+
+.staff-image .overlay::before {
+    content: "";
+    background: #ffff;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    bottom: -150px;
+    z-index: -2;
+    opacity: 0.5;
+    transition: all 0.3s ease-out
+}
+
+.staff-image:hover .overlay {
+    color: black
+}
+
+.container .staff-image:hover .overlay .amount,
+.container .staff-image:hover .overlay .h4,
+.container .staff-image:hover .overlay .textmuted,
+.container .staff-image:hover .overlay .fa-star,
+.container .staff-image:hover .overlay .fa-star-half-alt,
+.container .staff-image:hover .overlay .review {
+    color: black
+}
+
+.staff-image:hover .overlay::before {
+    bottom: 0px
+}
+
+.amount {
+    font-size: 15px
+}
+
+.textmuted {
+    color: #f8f8f8;
+    font-weight: 200;
+    font-size: 15px;
+    text-transform: capitalize
+}
+
+.fa-star,
+.fa-star-half-alt {
+    color: white;
+    font-size: 10px;
+    margin: 0 1px
+}
+
+.review {
+    font-size: 12px;
+    font-weight: 200
 }
