@@ -266,7 +266,22 @@ i {
     background-color: #39394c;
 }
 
+.modal-intro {
+ position: absolute;
+ top: 12%;
+ left: 58%;
+}
+
+.btn-close {
+    position: absolute;
+    top: 2%;
+    left: 92%;
+    width: 14px;
+    height: 14px;
+}
+
 .modal-body {
     padding: 40px;
     font-size: 18px;
 }
+
