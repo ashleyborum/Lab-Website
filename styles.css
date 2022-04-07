@@ -208,8 +208,9 @@ i {
 
 .staff-image {
     height:243px;
-    /*width: 243px;*/
-    width: 100%;
+    /*height: auto;*/
+    /*width: 100%;*/
+    width: 243px;
     border-radius: 16px;
     border: solid;
 }
