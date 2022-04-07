@@ -92,10 +92,14 @@ body {
     margin-bottom: 0;
 }
 
+.fa-clock {
+    color: #A6ADB4;
+    padding-left: 1rem;
+}
+
 .date {
     font-size: 13px;
     color: #A6ADB4;
-    padding-left: 1rem;
 }
 
 /*Highlighted Publications*/
@@ -297,4 +301,6 @@ i {
     padding-top: 8px;
     padding-right: 4px;
 }
+
+
 
