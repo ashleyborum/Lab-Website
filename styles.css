@@ -133,6 +133,7 @@ i {
 .authors {
     color: #A6ADB4;
     margin-top: 4px;
+    
 }
 
 
@@ -158,6 +159,11 @@ i {
         position: absolute;
         top: 20px;
         left: 25px;
+    }
+
+    /* Highlighted Publications */
+    .authors {
+        padding: 26px;
     }
 }
 
@@ -284,5 +290,11 @@ i {
 .modal-body {
     padding: 40px;
     font-size: 18px;
+}
+
+i {
+    color: white;
+    font-size: 16px;
+    padding-top: 8px;
 }
 
