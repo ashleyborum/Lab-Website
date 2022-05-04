@@ -57,7 +57,7 @@ body {
     font-size: 32px;
     font-weight: bold;
     position: relative;
-    margin-top: 2rem;
+    margin: 3.5rem 0 1rem 0;
     padding-left: 1rem;
 }
 
@@ -102,7 +102,30 @@ body {
     color: #A6ADB4;
 }
 
-/*Highlighted Publications*/
+/* Join Lab */
+.join-lab {
+    background-color: #dee2e6;
+    color: black;
+    padding: 1.5rem;
+    width: 150%;
+}
+
+.join-info {
+    width: 65%;
+}
+
+.join-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.join-text {
+    font-size: 14px;
+    padding-top: 0.3rem;
+    margin-bottom: 0;
+}
+
+/* Highlighted Publications */
 .publication {
     width: 355px;
     height: 175px;
@@ -136,8 +159,7 @@ body {
 
 .authors {
     color: #A6ADB4;
-    margin-top: 4px;
-    
+    margin-top: 4px; 
 }
 
 
@@ -302,5 +324,14 @@ i {
     padding-right: 4px;
 }
 
+/* Highlighted Projects */
+.paper-link {
+    text-decoration: none;
+}
 
-
+.btn {
+    position: relative;
+    border-color: #7dcbf5;
+    border-width: 2px;
+    border-radius: 8px;
+}
