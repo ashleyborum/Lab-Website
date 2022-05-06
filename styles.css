@@ -24,6 +24,7 @@ body {
 .navbar-title {
     margin-bottom: 0px;
     color: #044bd9;
+    /*color: #325595;*/
     text-decoration: none;
     font-weight: bold;
     font-size: 24px;
@@ -49,6 +50,19 @@ body {
 
 @media (max-width: 767px) {
     .navbar-subtext {
+        display: none;
+    }
+}
+
+/* not working */
+@media (max-width: 767px) {
+    .navbar-title {
+        width: 125px;
+    }
+}
+
+@media (max-width: 300px) {
+    .navbar-title {
         display: none;
     }
 }
@@ -137,8 +151,13 @@ body {
     width: 150%;
 }
 
-.join-info {
+.join-info, .join-info2{
     width: 65%;
+}
+
+.join-info2 {
+    margin-left: 400px;
+    /*position: absolute;*/
 }
 
 .join-title {
@@ -258,11 +277,13 @@ body {
 
 /* People Page */
 .join-people {
-    margin-top: 120px;
+    margin-top: 140px;
     background-color: #dee2e6;
     color: black;
     padding: 1.5rem;
     width: 150%;
+    position: relative;
+    left: -300px;
 }
 
 .staff {
