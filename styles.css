@@ -230,8 +230,16 @@ body {
 }
 
 /* People Page */
+.join-people {
+    margin-top: 120px;
+    background-color: #dee2e6;
+    color: black;
+    padding: 1.5rem;
+    width: 150%;
+}
+
 .people-page-title1 {
-    padding-top: 145px;
+    padding-top: 10px;
 }
 
 .staff {
