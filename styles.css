@@ -238,18 +238,12 @@ body {
     width: 150%;
 }
 
-.people-page-title1 {
-    padding-top: 10px;
-}
-
 .staff {
     text-align: center;
 }
 
 .staff-image {
     height:243px;
-    /*height: auto;*/
-    /*width: 100%;*/
     width: 243px;
     border-radius: 16px;
     border: solid;
