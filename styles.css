@@ -40,7 +40,7 @@ body {
     color: rgba(0, 0, 0, 0.543);
 }
 
-/*Carousel*/
+/* Carousel */
 .carousel {
     border-radius: 5px 5px 5px 5px;
 }
@@ -52,7 +52,7 @@ body {
     overflow: hidden;
 }
 
-/*Research Summary*/
+/* Research Summary */
 .h2 {
     font-size: 32px;
     font-weight: bold;
@@ -75,7 +75,7 @@ body {
     padding-right: 1rem;
 }
 
-/*News & Updates*/
+/* News & Updates */
 .small-title {
     font-weight: bold;
     color: #0A64DB;
@@ -200,7 +200,7 @@ body {
 }
 
 /* Publications Page */
-.publications-page-title{
+.publications-page-title, .projects-page-title {
     margin-top: 130px;
     margin-bottom: 10px;
 }
@@ -336,4 +336,32 @@ i {
     border-color: #7dcbf5;
     border-width: 2px;
     border-radius: 8px;
+}
+
+/* Projects Page */
+.project {
+    margin: 5px;
+    padding: 6px;
+    text-align: left;
+}
+
+.project-intro {
+    color: #A6ADB4;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.project-title {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.project-image {
+    width: 300px;
+    height: 300px;
+    float: left; 
+    margin-top: 8px;
+    margin-right: 8px;
 }
