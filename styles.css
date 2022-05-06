@@ -4,12 +4,39 @@ body {
 }
 
 /*navbar*/
-.navbar-logo {
+.logo {
+    margin-top: 15px;
+}
+
+.navbar-brand {
+    line-height: 23px;
+}
+
+.navbar-brand img {
+    float: left;
+    height: 75px;
+}
+
+.navbar-brand>img {
+    display: block;
+}
+
+.navbar-title {
     margin-bottom: 0px;
     color: #044bd9;
     text-decoration: none;
     font-weight: bold;
     font-size: 24px;
+}
+
+.navbar-text {
+    float: left;
+    margin-bottom: 15px;
+    width: 290px;
+    height: 75px;
+    margin-top: 26px;
+    margin-left: 10px;
+    /*display: inline-block;*/
 }
 
 .navbar-subtext {
